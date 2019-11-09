@@ -1,0 +1,9 @@
+.modal {
+    position: absolute;
+    width: 200px;
+    margin: 0 auto;
+    left: calc(50% - 100px);
+    top: -100%;
+    border: 1px solid black;
+    z-index: 9999;
+}

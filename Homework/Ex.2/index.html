@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="myModal" class="modal">
+            <div class="modal-dialog" role="dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="input-task-edit" placeholder="Enter">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-dismiss="modal" class="close">Close</button>
+                        <button type="button" class="save-changes">Save change</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="text" class="input-task" placeholder="Enter">
+        <button type="submit" class="add-task">Save</button>
+        <div class="todos-container"></div>
+        
+        
+        <script src="script.js"></script>
+    </body>
+</html>
